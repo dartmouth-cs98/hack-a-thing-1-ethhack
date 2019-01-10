@@ -1,0 +1,28 @@
+{
+  "name": "ethereumj",
+  "version": "1.0.0",
+  "description": "hack1",
+  "main": "main.js",
+  "dependencies": {
+    "bs58check": "^2.1.2",
+    "create-hash": "^1.2.0",
+    "crypto": "^1.0.1",
+    "request": "^2.88.0",
+    "secp256k1": "^3.6.1",
+    "varuint-bitcoin": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartmouth-cs98/hack-a-thing-1-ethhack.git"
+  },
+  "author": "willw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartmouth-cs98/hack-a-thing-1-ethhack/issues"
+  },
+  "homepage": "https://github.com/dartmouth-cs98/hack-a-thing-1-ethhack#readme"
+}

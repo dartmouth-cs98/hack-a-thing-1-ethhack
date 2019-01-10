@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6edb5adc-69be-4b56-9563-d3634c5427a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/ConcatKDFBytesGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/cli/CLIInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/BlockchainConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/BlockchainNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/CommonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/ConstantsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/DefaultConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/GenerateNodeIdRandomly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/GenerateNodeIdStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/GetNodeIdFromPropsFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/NoAutoscan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/NodeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/SystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/AbstractConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/AbstractDaoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/ByzantiumConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/ConstantinopleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/DaoHFConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/DaoNoHFConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/ETCFork3M.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/Eip150HFConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/Eip160HFConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/FrontierConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/HomesteadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/MordenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/OlympicConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/blockchain/RopstenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/BaseNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/ETCNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/JsonNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/MainNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/MordenNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/RopstenNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/config/net/TestNetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/AccountState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockHeaderWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockIdentifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Blockchain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/BlockchainImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Bloom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/CallTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Chain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Denomination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/EventDispatchThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Genesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/ImportResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/PendingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/PendingStateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/PendingTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/PremineRaw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/TransactionExecutionSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/TransactionExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/TransactionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/TransactionReceipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/TransactionTouchedStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/genesis/GenesisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/genesis/GenesisJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/core/genesis/GenesisLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/ECIESCoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/ECIESPublicKeyEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/ECKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/EthereumIESEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/HashUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/MGF1BytesGeneratorExt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/cryptohash/Digest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/cryptohash/DigestEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/cryptohash/Keccak256.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/cryptohash/Keccak512.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/cryptohash/KeccakCore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/ECAlgorithmParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/ECKeyAgreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/ECKeyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/ECKeyPairGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/ECSignatureFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/jce/SpongyCastleProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/BN128.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/BN128Fp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/BN128Fp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/BN128G1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/BN128G2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Fp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Fp12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Fp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Fp6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/PairingCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/crypto/zksnark/Params.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/AbstractCachedSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/AbstractChainedSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/AsyncFlushable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/AsyncWriteCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/BatchSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/BatchSourceWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/BloomFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/BloomedSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/CachedSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/CountingBytesSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/CountingQuotientFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/DataSourceArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/DbSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/DbSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/HashedKeySource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/JournalSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/MemSizeEstimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/MultiCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/NoDeleteSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/NodeKeyCompositor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/ObjectDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/PrefixLookupSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/QuotientFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/ReadCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/ReadWriteCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/Serializers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/SourceChainBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/SourceCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/WriteCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/XorDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/inmem/HashMapDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/inmem/HashMapDBSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/leveldb/LevelDbDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/datasource/rocksdb/RocksDbDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/AbstractBlockstore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/BlockStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/BlockStoreDummy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/ByteArrayWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/ContractDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/DbFlushManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/HeaderStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/IndexedBlockStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/PeerSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/PruneManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/RepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/RepositoryRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/RepositoryWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/StateSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/TransactionStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/index/ArrayListIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/index/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/migrate/MigrateHeaderSourceTotalDiff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/prune/Chain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/prune/ChainItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/prune/Pruner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/db/prune/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/Blockchain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/Ethereum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/EthereumFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/EthereumImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/PendingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/facade/SyncStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/json/EtherObjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/json/JSONHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/BlockReplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/CompositeEthereumListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/EthereumListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/EthereumListenerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/EventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/GasPriceTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/LogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/RecommendedGasPriceTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/listener/TxStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/manager/AdminInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/manager/BlockLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/manager/WorldManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/AnyFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/BlockMiner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/Ethash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashAlgoSlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashMiner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/EthashValidationHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/Miner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/MinerIfc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/mine/MinerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/MessageQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/MessageRoundtrip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/client/Capability.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/client/ConfigCapabilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/client/PeerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/dht/Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/dht/DHTUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/dht/Peer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/EthVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/Eth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/Eth62.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/Eth63.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/EthAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/EthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/EthHandlerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/EthHandlerFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/handler/GetBlockHeadersMessageWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/BlockBodiesMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/BlockHeadersMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/Eth62MessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/Eth63MessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/EthMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/EthMessageCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/GetBlockBodiesMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/GetBlockHeadersMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/GetNodeDataMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/GetReceiptsMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/NewBlockHashesMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/NewBlockMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/NodeDataMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/ReceiptsMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/StatusMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/eth/message/TransactionsMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/message/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/message/MessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/message/ReasonCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/message/StaticMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/DisconnectMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/GetPeersMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/HelloMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/P2pHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/P2pMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/P2pMessageCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/P2pMessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/Peer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/PeersMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/PingMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/p2p/PongMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/AuthInitiateMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/AuthInitiateMessageV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/AuthResponseMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/AuthResponseMessageV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/EncryptionHandshake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/FindNodeMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/FrameCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/FrameCodecHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/HandshakeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/HandshakeMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/MessageCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/MessageCodesResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/NeighborsMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/NettyByteToMessageCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/PingMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/PongMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/RlpxConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/SnappyCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/DiscoverListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/DiscoverTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/DiscoveryEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/DiscoveryExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/MessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/NodeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/NodeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/NodeStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/PacketDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/PeerConnectionTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/RefreshTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/UDPListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/DistanceComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/KademliaOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/NodeBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/NodeEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/NodeTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/rlpx/discover/table/TimeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/Channel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/ChannelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/EthereumChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/PeerServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/PeerStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/server/WireTrafficStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/BloomFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/JsonRpcWhisper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/MessageWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhEnvelopeMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhFilterMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhMessageCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhMessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/ShhStatusMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/Topic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/Whisper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/WhisperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/shh/WhisperMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/submit/TransactionExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/submit/TransactionTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/submit/WalletTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Chunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/ChunkStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Chunker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/DBStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/DPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Hive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Key.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/LocalStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Manifest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/MemStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/NetStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/SectionReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Statter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/StringTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/TreeChunker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzMessageCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzMessageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzPeersMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzProtocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzRetrieveReqMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzStatusMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/BzzStoreReqMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/net/swarm/bzz/PeerAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/BasicSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/CheckFork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/CreateContractSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/EventListenerSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/FollowAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/MordenSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/PendingStateSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/PriceFeedSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/PrivateMinerSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/PrivateNetworkDiscoverySample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/RopstenSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/SendTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/StandaloneBlockchainSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/TestNetSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/samples/TransactionBomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/Abi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/SolidityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/CompilationResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/ContractException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/Solc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/SolidityCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/SourceArtifact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/solidity/compiler/Sources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/BlockBodiesDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/BlockDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/FastSyncDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/FastSyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/HeadersDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/PeerState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/ReceiptsDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncQueueIfc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncQueueImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncQueueReverseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/sync/SyncStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/CollectFullSetOfNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/CountAllNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/SecureTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/TraceAllNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/TrieImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/trie/TrieKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/ALock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/AdvancedDeviceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/BIUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/BuildInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/ByteArrayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/ByteArraySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/ByteUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/CollectionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/CompactEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/CopyOnWriteMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/DecodeResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/ExecutorPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/FastByteComparisons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/MinMaxMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/RLP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/RLPElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/RLPItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/RLPList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/SetAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/TimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/ContractStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/EasyBlockchain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/EtherUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/LocalBlockchain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/SolidityCallResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/SolidityContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/SolidityFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/SolidityStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/StandaloneBlockchain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/util/blockchain/TransactionResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/AbstractValidationRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/BestNumberRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/BlockCustomHashRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/BlockHashRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/BlockHeaderRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/BlockHeaderValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/DependentBlockHeaderRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/DependentBlockHeaderRuleAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/DifficultyRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/EthashRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ExtraDataPresenceRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ExtraDataRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/GasLimitRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/GasValueRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ParentBlockHeaderValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ParentGasLimitRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ParentNumberRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ProofOfWorkRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/validator/ValidationRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/CallCreate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/DataWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/GasCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/LogInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/MessageCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/OpCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/PrecompiledContracts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/VM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/VMUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/hook/RootVmHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/hook/VMHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/InternalTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/Memory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/ProgramPrecompile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/ProgramResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/invoke/ProgramInvoke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/invoke/ProgramInvokeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/invoke/ProgramInvokeFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/invoke/ProgramInvokeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/invoke/ProgramInvokeMockImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/listener/CompositeProgramListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/listener/ProgramListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/listener/ProgramListenerAdaptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/listener/ProgramListenerAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/program/listener/ProgramStorageChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/trace/Op.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/trace/OpActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/trace/ProgramTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/trace/ProgramTraceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/java/org/ethereum/vm/trace/Serializers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/ethereumj.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/frontier-morden.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/frontier-test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/frontier.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/genesis-light-sb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/olympic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/ropsten.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/genesis/sample-genesis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/logback-detailed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/ropsten.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/main/resources/version.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/ConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/DaoLightMiningTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/DefaultConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/GenerateNodeIdRandomlyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/GetNodeIdFromPropsFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/InitializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/NodeFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/SystemPropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/BlockHeaderBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/ByzantiumConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/ConstantinopleConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/ETCFork3MTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/Eip150HFConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/Eip160HFConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/blockchain/TestBlockchainConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/net/BaseNetConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/net/ETCNetConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/net/JsonNetConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/config/net/TestNetConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/ABITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/AccountStateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/BlockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/BlockchainGetHeadersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/BloomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/CloseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/ImportLightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/ImportTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/LogInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/PendingStateLongRunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/PendingStateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/PruneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/StateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/TransactionExecutionSummaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/TransactionReceiptTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/TransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/core/genesis/GenesisLoadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/CryptoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/ECIESCoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/ECIESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/ECKeyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/cryptohash/AbstractCryptoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/cryptohash/Keccak256Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/crypto/cryptohash/Keccak512Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/AsyncWriteCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/BlockSerializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/CountingBytesSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/CountingQuotientFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/JournalPruneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/LevelDbDataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/MultiThreadSourcesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/ObjectDataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/ReadCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/ReadWriteCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/RepoNewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/RocksDbDataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/SourceCodecTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/TrieNodeSourceIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/TrieNodeSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/datasource/WriteCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/ByteArrayWrapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/FlushDbManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/IndexedBlockStoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/QuotientFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/RepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/SlowHashMapDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/TransactionStoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/db/prune/SegmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubBasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubBlockStateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubBlockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubJSONTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubPowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubRLPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubStateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubTestNetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubTransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GitHubVMTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GithubABITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/GithubTrieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/ABITestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/ABITestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/AbstractContractDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/AccountState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/BlockTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/BlockTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/BlockchainTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/CallCreate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/ContractDetailsCacheImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/ContractDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/CryptoTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/DifficultyTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/DifficultyTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Env.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/EnvTestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/EthashTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/EthashTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Exec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/GeneralStateTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/IterableTestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/JSONReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Logs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/RLPTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/StateTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/StateTestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/StateTestDataEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/StateTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TestProgramInvokeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TransactionTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TransactionTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TrieTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TrieTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/TxTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/VMTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/AccountBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/BlockBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/BlockHeaderBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/EnvBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/LogBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/RepositoryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/builder/TransactionBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/AccountTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/BlockHeaderTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/BlockTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/EnvTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/LogTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/PostDataTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/TransactionDataTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/model/TransactionTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/runners/StateTestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/runners/TransactionTestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/AccountValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/BlockHeaderValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/LogsValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/OutputValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/RepositoryValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/jsontestsuite/suite/validators/TransactionValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/BasicNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/BlockchainValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/FastSyncSanityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/HardExitSanityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/SyncSanityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/SyncWithLoadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/longrun/TrieTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/manager/BlockLoaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/EthashTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/EthashValidationHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/ExternalMinerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/FutureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/MineBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/MinerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/mine/SyncDoneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/DisconnectMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/HelloMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/NettyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/NewBlockHashesMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/NewBlockMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/PeerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/PingPongMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/StatusMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/TransactionsMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/TwoPeerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/UdpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/eth/MessagesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/eth/handler/HeaderMessageValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/eth/handler/LockBlockchainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/eth/handler/ProcessNewBlockHashesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/p2p/EIP8P2pTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/EIP8DiscoveryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/EIP8HandshakeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/EncryptionHandshakeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/FramingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/KademliaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/RLPXTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/RlpxConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/SanityLongRunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/SnappyCodecTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/SnappyConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/rlpx/discover/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/BloomFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/EnvelopeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/FilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/ShhLongRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/ShhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/shh/TopicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/BzzProtocolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/ChunkerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/GoPeerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/KademliaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/ManifestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/MessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/RLPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/SimpleDPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/swarm/StringTrieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/net/wire/AdaptiveMessageIdsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/solidity/AbiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/solidity/CompilerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/solidity/SolidityTypeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/sync/BlockTxForwardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/sync/LongSyncTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/sync/ShortSyncTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/sync/SyncQueueImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/tck/RunTck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/trie/TrieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/BIUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/ByteUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/CollectionUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/CompactEncoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/ExecutorPipelineTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/HashUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/MinMaxMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/RLPDump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/RLPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/RlpTestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/StandaloneBlockchainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/util/ValueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/validator/EthashRuleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/validator/ProofOfWorkRuleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/BytecodeCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/BytecodeCompilerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/DataWordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/MemoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/PrecompiledContractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/ProgramMemoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMArithmeticOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMBaseOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMBitOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMComplexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMCustomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMEnvOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMMemoryOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/VMOpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/java/org/ethereum/vm/program/InternalTransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/blockload/scenario1.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/blockload/scenario2.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/blockstore/light-load.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/blockstore/load.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/config/genesis-sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/db/StorageDictionaryTest_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/dbdump/dbdump.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/dmp/1-10-blocks.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/dmp/11-20-blocks.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/dmp/21-30-blocks.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-alloc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-harder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-light-old.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-light.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-low-difficulty.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/genesis-with-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/keys-addr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/nonce-messy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/nonce-messy2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/genesis/olympic-messy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/github-tests.prop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/live-fast-noprune.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/live-fast.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/live-noprune.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/live.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/ropsten-fast.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/ropsten-noprune.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/conf/ropsten.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/longrun/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/rlp/block.go.snappy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/rlp/block.py.snappy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/rlp/rlp-msg-1.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/solidity/file1.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/solidity/file2.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/solidity/foo/file3.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/state/47250.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/sync/fork-b1-b5-b8_.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/sync/main-b1-b10.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/test-ethereumj.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/trie/massive-upload.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/wallet/ethersalewallet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/src/test/resources/wallet/ethersalewallet_broken.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereumj-core/track-untrack-local.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1455054099">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="6" />
+          <entry key="json" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="1729" />
+          <entry key="md" value="1136" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="1729" />
+          <entry key="Markdown" value="1136" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wallet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="117" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wallet.js" />
+        <option value="$PROJECT_DIR$/src/bufferutils.js" />
+        <option value="$PROJECT_DIR$/src/config.js" />
+        <option value="$PROJECT_DIR$/src/crypto.js" />
+        <option value="$PROJECT_DIR$/src/sha256compress.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/src/wallet.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="2560" />
+    <option name="height" value="1575" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ethereumj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ethereumj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ethereumj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ethereumj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6edb5adc-69be-4b56-9563-d3634c5427a0" name="Default Changelist" comment="" />
+      <created>1547130968579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547130968579</updated>
+      <workItem from="1547130969953" duration="9327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-20" width="3840" height="1620" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32988167" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39940828" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crypto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bufferutils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha256compress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="117" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
